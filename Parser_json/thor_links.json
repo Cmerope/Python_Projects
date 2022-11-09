@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "Cluster": {
+        "version": 1,
+        "name": "thor"
+      },
+      "is_current": "false",
+      "service_name": "hive",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 4,
+          "properties": {
+            "protocol": "ldap",
+            "port": "7642",
+            "host": "h110flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "metastore",
+          "version": 7,
+          "properties": {
+            "protocol": "thrift",
+            "info": "testtest",
+            "port": "1929",
+            "host": "h110.flora.sberbank.ru"
+          }
+        }
+      ]
+    },
+    {
+      "Cluster": {
+        "version": 3,
+        "name": "loki"
+      },
+      "is_current": "false",
+      "service_name": "yarn",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 4,
+          "properties": {
+            "protocol": "ldap",
+            "port": "7642",
+            "host": "h091.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "beeline",
+          "version": 1,
+          "properties": {
+            "protocol": "jdbc",
+            "info": "testtest",
+            "port": "1919",
+            "host": "h092.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "metastore",
+          "version": 8,
+          "properties": {
+            "protocol": "thrift",
+            "info": "testtest",
+            "port": "1929",
+            "host": "h110.flora.sberbank.ru"
+          }
+        }
+      ]
+    },
+    {
+      "Cluster": {
+        "version": 6,
+        "name": "loki"
+      },
+      "is_current": "true",
+      "service_name": "hive",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 5,
+          "properties": {
+            "protocol": "ldap",
+            "port": "2389",
+            "host": "10.18.9.1"
+          }
+        },
+        {
+          "type": "site",
+          "version": 5,
+          "properties": {
+            "protocol": "http",
+            "port": "8080",
+            "host": "10.18.9.2"
+          }
+        },
+        {
+          "type": "beeline",
+          "version": 3,
+          "properties": {
+            "protocol": "jdbc",
+            "info": "test test system",
+            "port": "2389",
+            "host": "10.18.9.2"
+          }
+        },
+        {
+          "type": "metastore",
+          "version": 4,
+          "properties": {
+            "protocol": "thrift",
+            "info": "testtest",
+            "port": "1929",
+            "host": "10.18.9.2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "Cluster": {
+        "version": 1,
+        "name": "loki"
+      },
+      "is_current": "false",
+      "service_name": "hive",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 2,
+          "properties": {"protocol":"ldap",
+            "port": "2345",
+            "host": "h010.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "beeline",
+          "version": 3,
+          "properties": {"protocol":"jdbc",
+            "info": "testtest",
+            "port": "3456",
+            "host": "h010.flora.sberbank.ru"
+          }
+        }
+      ]
+    },
+    {
+      "Cluster": {
+        "version": 2,
+        "name": "loki"
+      },
+      "is_current": "false",
+      "service_name": "hive",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 3,
+          "properties": {"protocol":"ldap",
+            "port": "2345",
+            "host": "h011.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "beeline",
+          "version": 6,
+          "properties": {"protocol":"jdbc",
+            "info": "testtest",
+            "port": "3456",
+            "host": "h020.flora.sberbank.ru"
+          }
+        }
+      ]
+    },
+    {
+      "Cluster": {
+        "version": 4,
+        "name": "loki"
+      },
+      "is_current": "true",
+      "service_name": "hive",
+      "configuration": [
+        {
+          "type": "llap",
+          "version": 3,
+          "properties": {"protocol":"ldap",
+            "port": "2345",
+            "host": "h011.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "beeline",
+          "version": 7,
+          "properties": {"protocol":"jdbc",
+            "info": "test test system",
+            "port": "3456",
+            "host": "h020.flora.sberbank.ru"
+          }
+        },
+        {
+          "type": "site",
+          "version": 5,
+          "properties": {
+            "protocol": "http",
+            "port": "8080",
+            "host": "h020.flora.sberbank.ru"
+          }
+        }
+      ]
+    }
+  ]
+}
